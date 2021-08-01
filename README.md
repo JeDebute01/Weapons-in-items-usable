@@ -7,5 +7,5 @@ Thanks to Arood for the SQL with WeaponSync and also thanks to someone I forgot 
 
 When you give it to yourself and use it, it gives you the basic weapon that you can use in the inventory, in the hotbar or in the basic weapon wheel.
 
-# I use H-Notif but you can comment and uncomment for the basic ESX notifications ;)
+# I use H-Notif but you can comment and uncomment for the basic ESX notifications or H-notif
 TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
