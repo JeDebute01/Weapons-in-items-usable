@@ -4,6 +4,23 @@ TriggerEvent('esx:getSharedObject', function(obj)
 	ESX = obj
 end)
 
+
+------------------|
+--Clip for weapon-|
+------------------|
+
+RegisterServerEvent('weapon:remove')
+AddEventHandler('weapon:remove', function()
+	local xPlayer = ESX.GetPlayerFromId(source)
+	xPlayer.removeInventoryItem('clip', 1)
+end)
+
+ESX.RegisterUsableItem('clip', function(source)
+	TriggerClientEvent('weapon:clipclient', source)
+end)
+
+
+
 ------------------|
 ---Melee Weapon---|
 ------------------|
