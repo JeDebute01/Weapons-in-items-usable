@@ -16,8 +16,8 @@ ESX.RegisterUsableItem('knife', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('knife', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -32,8 +32,8 @@ ESX.RegisterUsableItem('switchblade', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('switchblade', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -48,8 +48,8 @@ ESX.RegisterUsableItem('poolcue', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('poolcue', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -64,8 +64,8 @@ ESX.RegisterUsableItem('wrench', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('wrench', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -80,8 +80,8 @@ ESX.RegisterUsableItem('parachute', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('parachute', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -96,8 +96,8 @@ ESX.RegisterUsableItem('flashlight', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('flashlight', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -112,8 +112,8 @@ ESX.RegisterUsableItem('snowball', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('snowball', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -128,8 +128,8 @@ ESX.RegisterUsableItem('dagger', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('dagger', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -144,8 +144,8 @@ ESX.RegisterUsableItem('bottle', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('bottle', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -160,8 +160,8 @@ ESX.RegisterUsableItem('nightstick', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('nightstick', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -176,8 +176,8 @@ ESX.RegisterUsableItem('hammer', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('hammer', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -192,8 +192,8 @@ ESX.RegisterUsableItem('bat', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('bat', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -208,8 +208,8 @@ ESX.RegisterUsableItem('knuckle', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('knuckle', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -224,8 +224,8 @@ ESX.RegisterUsableItem('battleaxe', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('battleaxe', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -241,8 +241,8 @@ ESX.RegisterUsableItem('hatchet', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('hatchet', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -256,8 +256,8 @@ ESX.RegisterUsableItem('machete', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('machete', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -272,8 +272,8 @@ ESX.RegisterUsableItem('golfclub', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('golfclub', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -288,8 +288,8 @@ ESX.RegisterUsableItem('crowbar', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('crowbar', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -304,8 +304,8 @@ ESX.RegisterUsableItem('fireextinguisher', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('fireextinguisher', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -320,8 +320,8 @@ ESX.RegisterUsableItem('petrolcan', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('petrolcan', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -336,8 +336,8 @@ ESX.RegisterUsableItem('ball', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('ball', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -356,8 +356,8 @@ ESX.RegisterUsableItem('snspistol', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('snspistol', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -372,8 +372,8 @@ ESX.RegisterUsableItem('snspistol_mk2', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('snspistol_mk2', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -388,8 +388,8 @@ ESX.RegisterUsableItem('stungun', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('stungun', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -404,8 +404,8 @@ ESX.RegisterUsableItem('marksmanpistol', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('marksmanpistol', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -420,8 +420,8 @@ ESX.RegisterUsableItem('revolver', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('revolver', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -436,8 +436,8 @@ ESX.RegisterUsableItem('revolver_mk2', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('revolver_mk2', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -452,8 +452,8 @@ ESX.RegisterUsableItem('doubleaction', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('doubleaction', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -468,8 +468,8 @@ ESX.RegisterUsableItem('flaregun', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('flaregun', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -484,8 +484,8 @@ ESX.RegisterUsableItem('pistol', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('pistol', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -500,8 +500,8 @@ ESX.RegisterUsableItem('pistol_mk2', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('pistol_mk2', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -516,8 +516,8 @@ ESX.RegisterUsableItem('vintagepistol', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('vintagepistol', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -532,8 +532,8 @@ ESX.RegisterUsableItem('musket', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('musket', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -548,8 +548,8 @@ ESX.RegisterUsableItem('combatpistol', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('combatpistol', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -564,8 +564,8 @@ ESX.RegisterUsableItem('appistol', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('appistol', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -580,8 +580,8 @@ ESX.RegisterUsableItem('pistol50', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('pistol50', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -596,8 +596,8 @@ ESX.RegisterUsableItem('heavypistol', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('heavypistol', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -617,8 +617,8 @@ ESX.RegisterUsableItem('gusenberg', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('gusenberg', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -633,8 +633,8 @@ ESX.RegisterUsableItem('machinepistol', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('machinepistol', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -649,8 +649,8 @@ ESX.RegisterUsableItem('minismg', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('minismg', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -665,8 +665,8 @@ ESX.RegisterUsableItem('combatpdw', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('combatpdw', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -681,8 +681,8 @@ ESX.RegisterUsableItem('microsmg', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('microsmg', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -697,8 +697,8 @@ ESX.RegisterUsableItem('smg', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('smg', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -713,8 +713,8 @@ ESX.RegisterUsableItem('smg_mk2', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('smg_mk2', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -734,8 +734,8 @@ ESX.RegisterUsableItem('specialcarbine', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('specialcarbine', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -750,8 +750,8 @@ ESX.RegisterUsableItem('specialcarbine_mk2', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('specialcarbine_mk2', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -766,8 +766,8 @@ ESX.RegisterUsableItem('bullpuprifle', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('bullpuprifle', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -782,8 +782,8 @@ ESX.RegisterUsableItem('bullpuprifle_mk2', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('bullpuprifle_mk2', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -798,8 +798,8 @@ ESX.RegisterUsableItem('assaultsmg', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('assaultsmg', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -814,8 +814,8 @@ ESX.RegisterUsableItem('compactrifle', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('compactrifle', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -830,8 +830,8 @@ ESX.RegisterUsableItem('assaultrifle', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('assaultrifle', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -846,8 +846,8 @@ ESX.RegisterUsableItem('assaultrifle_mk2', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('assaultrifle_mk2', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -862,8 +862,8 @@ ESX.RegisterUsableItem('carbinerifle', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('carbinerifle', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -878,8 +878,8 @@ ESX.RegisterUsableItem('carbinerifle_mk2', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('carbinerifle_mk2', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -894,8 +894,8 @@ ESX.RegisterUsableItem('advancedrifle', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('advancedrifle', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -914,8 +914,8 @@ ESX.RegisterUsableItem('mg', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('mg', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -930,8 +930,8 @@ ESX.RegisterUsableItem('combatmg', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('combatmg', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -946,8 +946,8 @@ ESX.RegisterUsableItem('combatmg_mk2', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('combatmg_mk2', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -967,8 +967,8 @@ ESX.RegisterUsableItem('pumpshotgun', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('pumpshotgun', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -983,8 +983,8 @@ ESX.RegisterUsableItem('pumpshotgun_mk2', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('pumpshotgun_mk2', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -999,8 +999,8 @@ ESX.RegisterUsableItem('heavyshotgun', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('heavyshotgun', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1015,8 +1015,8 @@ ESX.RegisterUsableItem('autoshotgun', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('autoshotgun', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1031,8 +1031,8 @@ ESX.RegisterUsableItem('dbshotgun', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('dbshotgun', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1047,8 +1047,8 @@ ESX.RegisterUsableItem('sawnoffshotgun', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('sawnoffshotgun', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1063,8 +1063,8 @@ ESX.RegisterUsableItem('assaultshotgun', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('assaultshotgun', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1079,8 +1079,8 @@ ESX.RegisterUsableItem('bullpupshotgun', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('bullpupshotgun', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1100,8 +1100,8 @@ ESX.RegisterUsableItem('sniperrifle', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('sniperrifle', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1116,8 +1116,8 @@ ESX.RegisterUsableItem('marksmanrifle', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('marksmanrifle', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1132,8 +1132,8 @@ ESX.RegisterUsableItem('marksmanrifle_mk2', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('marksmanrifle_mk2', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1148,8 +1148,8 @@ ESX.RegisterUsableItem('heavysniper', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('heavysniper', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1164,8 +1164,8 @@ ESX.RegisterUsableItem('heavysniper_mk2', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('heavysniper_mk2', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1180,8 +1180,8 @@ ESX.RegisterUsableItem('grenadelauncher', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('grenadelauncher', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1196,8 +1196,8 @@ ESX.RegisterUsableItem('compactlauncher', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('compactlauncher', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1216,8 +1216,8 @@ ESX.RegisterUsableItem('rpg', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('rpg', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1232,8 +1232,8 @@ ESX.RegisterUsableItem('hominglauncher', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('hominglauncher', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1248,8 +1248,8 @@ ESX.RegisterUsableItem('firework', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('firework', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1264,8 +1264,8 @@ ESX.RegisterUsableItem('minigun', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('minigun', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1280,8 +1280,8 @@ ESX.RegisterUsableItem('railgun', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('railgun', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1301,8 +1301,8 @@ ESX.RegisterUsableItem('grenade', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('grenade', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1317,8 +1317,8 @@ ESX.RegisterUsableItem('pipebomb', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('pipebomb', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1333,8 +1333,8 @@ ESX.RegisterUsableItem('flare', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('flare', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1349,8 +1349,8 @@ ESX.RegisterUsableItem('proxmine', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('proxmine', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1365,8 +1365,8 @@ ESX.RegisterUsableItem('stickybomb', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('stickybomb', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1381,8 +1381,8 @@ ESX.RegisterUsableItem('smokegrenade', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('smokegrenade', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1397,8 +1397,8 @@ ESX.RegisterUsableItem('bzgas', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('bzgas', 1)
 		xPlayer.addWeapon(weaponName, 0)
@@ -1413,8 +1413,8 @@ ESX.RegisterUsableItem('molotov', function(source)
 	end
 
 	if xPlayer.hasWeapon(weaponName) then
-		--TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has that weapon.' } })
-		TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Vous avez déja cette arme !', 'mid-left', 8000)
+		TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Player already has this weapon !' } })
+		--TriggerClientEvent("H-Notif:SendNotification", source, 'fas fa-exclamation-triangle', 'error', 'Player already has this weapon !', 'mid-left', 8000)
 	else
 		xPlayer.removeInventoryItem('molotov', 1)
 		xPlayer.addWeapon(weaponName, 0)
