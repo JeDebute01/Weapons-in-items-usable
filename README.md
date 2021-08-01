@@ -2,6 +2,7 @@
 
 # **I am not a developer!** I tinker and try to create the scripts I need with what I find and my personal knowledge! 
 Thanks to Arood for the SQL with WeaponSync and also thanks to someone I forgot on the CFX forum for the piece of code to use!
+And thank's to Gregos1810 for the clips
 
 ## This script allows you to have an item weapon that you can stack and have several in your inventory and when you use one, you have the base weapon in the inventory and if you try to use another, it tells you that you can't !
 
